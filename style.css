@@ -40,21 +40,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url("./images/background.png"), linear-gradient(45deg, #000,#474545);
+    background-image: url("./images/background.png"), linear-gradient(45deg, #000,#353333);
 }
 .banner-details{
     color: white;
 }
 .banner-title{
-    font-size: 24px;
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 .banner-p{
     font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 .btn{
     background-color: red;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    font: bold;
 }
 .bnr-photo{
     height: 250px;
