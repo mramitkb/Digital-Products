@@ -62,7 +62,52 @@
     border: none;
     font: bold;
 }
+.btn:hover{
+    background-color: green;
+}
 .bnr-photo{
     height: 250px;
     width: 300px;
+}
+
+/* About Us Section starts from here */
+.about-container{
+    padding: 30px;
+    height: 400px;
+}
+.aboutus{
+    font-size: 56px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about-img{
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+}
+.about-info{
+    padding: 40px;
+}
+.about-title{
+    margin-bottom: 10px;
+}
+.about-p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.about-btn{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.about-btn:hover{
+    background-color: green;
 }
